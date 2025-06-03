@@ -1,4 +1,5 @@
-🎭 Actor Management System
+🎭Actor Management System
+
 This is a Spring Boot application for managing actors and their associated data. It allows you to create, read, update, and delete (CRUD) actor records, and can be extended to include additional functionality like filmography, awards, and more.
 
 📌 Features
@@ -10,11 +11,9 @@ Update actor details
 
 Delete actors
 
-RESTful API endpoints
+Integration with a relational database Oracle
 
-Integration with a relational database (e.g., MySQL, H2)
-
-Optional: Web interface using Thymeleaf or React (if implemented)
+Optional: Web interface using JSP
 
 🛠️ Tech Stack
 Java 17+
@@ -25,18 +24,14 @@ Spring Data JPA
 
 Spring Web
 
-H2/MySQL/PostgreSQL (choose based on your setup)
+Oracle
 
 Lombok
 
-Maven/Gradle
+Maven
 
-Swagger/OpenAPI (for API documentation, if used)
 
 📂 Project Structure
-css
-Copy
-Edit
 src/
  └── main/
      ├── java/
